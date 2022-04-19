@@ -1,0 +1,12 @@
+function solution(nums){
+  let newArr = []
+  
+  if(nums == null) {
+    newArr = []
+  }
+  else {
+    newArr = nums.sort((a, b) => a - b)
+  }
+  
+  return newArr
+}
