@@ -1,0 +1,8 @@
+function past(h, m, s){
+  //#Happy Coding! ^_^
+  let sum = 0
+  
+  sum = ((s * 1000) + (m * 60000) + (h * 3600000))
+  
+  return sum
+}
