@@ -1,0 +1,15 @@
+function find_average(array) {
+  // your code here
+  let sum = 0
+  let av = 0
+  for(let i = 0; i < array.length; i++) {
+    sum += array[i]
+  }
+  av = sum / array.length
+  if(!av) {
+    return 0
+  }
+  else {
+    return av
+  }
+  }
