@@ -1,0 +1,7 @@
+function removeChar(str){
+ //You got this!
+  let newStr = ""
+  newStr = str.substring(1, (str.length - 1))
+  
+  return newStr
+};
