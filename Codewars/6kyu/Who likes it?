@@ -1,0 +1,37 @@
+// this solution got out of hand. I will update.
+function likes(names) {
+  // TODO
+  let newStr = ''
+  if(names.length == 0) {
+    return 'no one likes this'
+  }
+  else if(names.length == 1) {
+    for(let i = 0; i < names.length; i++) {
+      newStr += (names[i])
+      return newStr + " likes this"
+    }
+  }
+  else if(names.length == 2) {
+    for(let j = 0; j < names.length; j++) {
+      newStr += (names[j] + " and ")
+      }
+      let finalStr = newStr.slice(0, -4);
+      return finalStr + "like this"
+  }
+  else if(names.length == 3) {
+    for(let k = 0; k < names.length - 1; k++) {
+      newStr += names[k] + ", "
+      }
+    let finalStr = newStr.slice(0, -2)
+    return finalStr + " and " + names[names.length - 1] + " like this"
+  }
+  else {
+    let others = names.length - 2 + " others like this"
+    for(let k = 0; k < 2; k++) {
+      newStr += names[k] + ", "
+      }
+    let finalStr = newStr.slice(0, -2)
+    return finalStr + " and " + others
+  }
+  
+  }
