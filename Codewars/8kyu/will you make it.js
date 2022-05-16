@@ -8,3 +8,11 @@ const zeroFuel = (distanceToPump, mpg, fuelLeft) => {
       return false;
     }
   };
+
+// or
+
+const zeroFuel = (distanceToPump, mpg, fuelLeft) => {
+    return mpg * fuelLeft >= distanceToPump;
+    
+    return zeroFuel > 1 ? true : false
+}
