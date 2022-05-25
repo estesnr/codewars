@@ -20,10 +20,8 @@ function narcissistic(value) {
   // loop through our created array and increase our numbers by a power of the length of the array
   for(let i = 0; i < arr.length; i++) {
     arr[i] = Math.pow(arr[i], arr.length)
-  }
-  // use those values we just created to accumulate to our comparison variable
-  for(let j = 0; j < arr.length; j++) {
-    compVal += arr[j]
+    // then add the new value to the "compVal" variable
+    compVal += arr[i]
   }
   // compare our final value to the input value
   return compVal == value 
