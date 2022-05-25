@@ -28,3 +28,11 @@ function reverseLetter(str) {
   // return our reversed array, and join it into a string
   return arr.join('')
 }
+
+// OR
+
+function reverseLetter(str) {
+  // single line code to split the input into an array, reverse it, join it back into a string, 
+  // then filter out everything that isn't a letter
+  return str.split('').reverse().join('').replace(/[^a-z]/gi, '')
+}
