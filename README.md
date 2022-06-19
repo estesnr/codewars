@@ -4,7 +4,7 @@ I set a goal to solve and push at least 1 CodeWars problem with my coffee every 
 Specializing in ![image](https://user-images.githubusercontent.com/97855282/167168858-64bc5a04-7152-4ba0-8803-455be090d3b8.png)
 
 
-https://www.codewars.com/users/Mecharossman/badges/large
+<img src='https://www.codewars.com/users/Mecharossman/badges/large'>
 
 
 # plans
