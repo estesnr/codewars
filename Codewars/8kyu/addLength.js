@@ -14,10 +14,8 @@ function addLength(str) {
   let arr = str.split(' ')
   // begin a for loop to cycle through the newly created array
   for(let i = 0; i < arr.length; i++) {
-    // create a variable to find the length of each word in the array
-    let len = arr[i].split('').length
-    // concat the word with the length of the word
-    arr[i] = arr[i] + " " + len
+    // concat each word with the length of each word
+    arr[i] = `${arr[i]} ${arr[i].length}`
   }
   // return the final value
   return arr
